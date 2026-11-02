@@ -39,13 +39,13 @@ export default function TimerSettingInput({
         value={value}
         onChange={(e) => setDraft(e.target.value)}
         aria-label="타이머 시간(분)"
-        className="w-24 rounded-lg border border-zinc-300 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900"
+        className="field w-24 rounded-md px-3 py-2"
       />
       <span>분 ({MIN_MINUTES}~{MAX_MINUTES})</span>
       <button
         type="submit"
         disabled={!canSubmit}
-        className="rounded-lg border border-zinc-300 px-4 py-2 font-medium hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-40 dark:border-zinc-700 dark:hover:bg-zinc-900"
+        className="btn-primary rounded-md px-4 py-2 text-sm font-medium"
       >
         설정 완료
       </button>

@@ -9,8 +9,7 @@ type ControllersProps = {
 };
 
 const buttonClass =
-  "transition duration-150 ease-out not-disabled:hover:-translate-y-0.5 not-disabled:hover:shadow-md not-disabled:active:translate-y-0 not-disabled:active:scale-95 " +
-  "rounded-lg border border-zinc-300 px-4 py-2 font-medium hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-40 dark:border-zinc-700 dark:hover:bg-zinc-900";
+  "btn-secondary rounded-md px-4 py-2 text-sm font-medium";
 
 export default function Controllers({
   isRunning,
